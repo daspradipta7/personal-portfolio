@@ -120,31 +120,32 @@ export default function App() {
         return (
           <div className="space-y-4">
             <div className="border-b-2 border-[#0054E3] pb-2">
-              <h1 className="text-3xl font-bold text-[#0054E3]">JOEL CAMPOS</h1>
-              <p className="text-lg text-gray-700 mt-1">Full-Stack Software Engineer</p>
+              <h1 className="text-3xl font-bold text-[#0054E3]">PRADIPTA DAS</h1>
+              <p className="text-lg text-gray-700 mt-1">Node.js / Backend Engineer</p>
             </div>
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
               <p className="text-sm leading-relaxed">
-                Full-stack software engineer with a strong specialization in JavaScript (React.js, Node.js) and solid experience in SQL-driven systems and Laravel-based platforms. Proven track record integrating banking APIs, maintaining C# legacy systems, and building digital service solutions for government operations. Focused on clean, scalable, and secure architectures.
+                Backend engineer with 4.6+ years of experience designing scalable, event-driven, and cloud-native backend systems. Specializes in Node.js and Azure Functions, microservices migration, stateless service design, and performance optimization across distributed systems.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4 mt-4">
               <div className="bg-[#ECE9D8] border-2 border-[#808080] p-3">
-                <h3 className="font-bold text-sm mb-2 text-[#0054E3]">📍 Location</h3>
-                <p className="text-sm">Guadalajara, Jalisco</p>
+                <h3 className="font-bold text-sm mb-2 text-[#0054E3]">🎓 Education</h3>
+                <p className="text-sm">Master of Computer Applications</p>
+                <p className="text-xs text-gray-600">Trident Academy, Bhubaneswar</p>
               </div>
               <div className="bg-[#ECE9D8] border-2 border-[#808080] p-3">
-                <h3 className="font-bold text-sm mb-2 text-[#0054E3]">🌐 Languages</h3>
-                <p className="text-sm">Spanish — Native</p>
-                <p className="text-sm">English — Professional</p>
+                <h3 className="font-bold text-sm mb-2 text-[#0054E3]">📅 Experience</h3>
+                <p className="text-sm">4.6+ Years</p>
+                <p className="text-xs text-gray-600">Backend & Cloud Services</p>
               </div>
             </div>
             <div className="bg-[#E6F3FF] border-2 border-[#0054E3] p-4 rounded mt-4">
-              <h3 className="font-bold text-sm mb-2 text-[#0054E3]">✨ Professional Highlights</h3>
+              <h3 className="font-bold text-sm mb-2 text-[#0054E3]">✨ Key Expertise</h3>
               <ul className="list-disc list-inside space-y-1 text-sm">
-                <li>Key developer in digital transformation initiatives for local government</li>
-                <li>Hands-on experience connecting legacy systems with modern web architectures</li>
-                <li>Skilled at cross-stack problem-solving from database to UI</li>
+                <li>Microservices architecture & event-driven systems</li>
+                <li>Stateless service design for high scalability</li>
+                <li>Azure Functions, Service Bus, and cloud-native solutions</li>
               </ul>
             </div>
           </div>
@@ -155,27 +156,28 @@ export default function App() {
           <div className="space-y-6">
             <div className="border-l-4 border-[#0054E3] pl-4 bg-[#F0F8FF] p-4">
               <div className="flex justify-between items-start mb-2">
-                <h2 className="font-bold text-lg text-[#0054E3]">Software Engineer — City Government Platform (Zapopan)</h2>
-                <span className="text-sm text-gray-600 whitespace-nowrap">Feb 2023 – Present</span>
+                <h2 className="font-bold text-lg text-[#0054E3]">Senior Software Engineer — Mindfire Digital LLP</h2>
+                <span className="text-sm text-gray-600 whitespace-nowrap">Oct 2021 – Present</span>
               </div>
               <ul className="list-disc list-inside space-y-2 text-sm mt-3">
-                <li>Developed SQL stored procedures to optimize heavy data operations for citizen services</li>
-                <li>Led React.js development for fee calculation and license management platforms</li>
-                <li>Integrated Banorte banking API, enabling online tax and license payments directly from citizen portals</li>
-                <li>Maintained and debugged C# + DevExpress legacy systems for financial reconciliation</li>
+                <li>Modernized monolithic healthcare platform into event-driven microservices using Azure Functions</li>
+                <li>Designed coding standards, shared libraries, and code review workflows for scalability</li>
+                <li>Built stateless Doctor Consultation services enabling auto-scale behavior during peak operations</li>
+                <li>Implemented service isolation, async event workflows, and multi-site lead capture platform</li>
+                <li>Enhanced system reliability and throughput through distributed workload patterns</li>
               </ul>
             </div>
 
             <div className="border-l-4 border-[#4A9EFF] pl-4 bg-[#FAFAFA] p-4">
               <div className="flex justify-between items-start mb-2">
-                <h2 className="font-bold text-lg text-[#0054E3]">Software Engineer — Freelance / Agency Projects</h2>
-                <span className="text-sm text-gray-600 whitespace-nowrap">May 2021 – Feb 2023</span>
+                <h2 className="font-bold text-lg text-[#0054E3]">Key Project Achievements</h2>
+                <span className="text-sm text-gray-600 whitespace-nowrap">Impact Highlights</span>
               </div>
               <ul className="list-disc list-inside space-y-2 text-sm mt-3">
-                <li>Built e-commerce and landing page systems using Shopify, WordPress, and Laravel</li>
-                <li>Implemented UI customizations using Liquid (Shopify) and PHP templates</li>
-                <li>Integrated analytics and marketing tools like Klaviyo and Google Tag Manager</li>
-                <li>Delivered responsive, SEO-optimized, and high-performance front-end layouts</li>
+                <li>Reduced coupling through modularized components and shared libraries</li>
+                <li>Increased scalability by transitioning critical workflows to stateless architecture</li>
+                <li>Boosted contractor response rates by 10% through email alert system refinement</li>
+                <li>Award: Best Troubleshooter (Oct 2023), Best Performer (Feb 2026)</li>
               </ul>
             </div>
           </div>
@@ -185,28 +187,28 @@ export default function App() {
         return (
           <div className="space-y-4">
             <div className="bg-[#E6F3FF] border-2 border-[#0054E3] p-4 rounded">
-              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">💻 Frontend</h3>
-              <p className="text-sm">React.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap</p>
+              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">� Languages</h3>
+              <p className="text-sm">JavaScript, PHP</p>
             </div>
 
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
-              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">⚙️ Backend</h3>
-              <p className="text-sm">Node.js, Express.js, Laravel (PHP), C# (.NET Core)</p>
+              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">📚 Frameworks</h3>
+              <p className="text-sm">React.js, Node.js, Express.js, Jest, Laravel, WordPress</p>
             </div>
 
             <div className="bg-[#E6FFE6] border-2 border-[#4A9EFF] p-4 rounded">
-              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">🗄️ Databases</h3>
-              <p className="text-sm">SQL Server, PostgreSQL, MySQL</p>
+              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">🗄️ Databases & Cloud</h3>
+              <p className="text-sm">MySQL, MSSQL, Redis, Azure Cosmos DB, Azure Functions, Azure Service Bus, Azure Web Pub/Sub</p>
             </div>
 
             <div className="bg-[#FFE6E6] border-2 border-[#D4D0C8] p-4 rounded">
-              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">🛠️ Tools</h3>
-              <p className="text-sm">Git, AWS, Figma, DevExpress, Shopify, WordPress</p>
+              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">🛠️ Architecture & DevOps</h3>
+              <p className="text-sm">Microservices, Event-Driven Systems, Stateless Design, GitHub, Bitbucket, JIRA, SDD with AI</p>
             </div>
 
             <div className="bg-[#F5F5F5] border-2 border-[#808080] p-4 rounded">
-              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">🔧 Other</h3>
-              <p className="text-sm">REST APIs, Stored Procedures, System Integration, Debugging Legacy Code</p>
+              <h3 className="font-bold text-sm mb-3 text-[#0054E3] border-b-2 border-[#0054E3] pb-1">🌐 Web Technologies</h3>
+              <p className="text-sm">HTML5, CSS3, Bootstrap 4, AJAX, jQuery, WebSocket, Socket.IO, REST APIs</p>
             </div>
           </div>
         );
@@ -218,18 +220,17 @@ export default function App() {
               <div className="flex items-start gap-4">
                 <div className="text-5xl">🎓</div>
                 <div className="flex-1">
-                  <h2 className="font-bold text-xl text-[#0054E3] mb-2">B.S. in Information Technology Engineering</h2>
-                  <p className="text-sm text-gray-700 mb-1">Universidad Tecnológica de Jalisco</p>
-                  <p className="text-sm text-gray-600">2019 – 2023</p>
+                  <h2 className="font-bold text-xl text-[#0054E3] mb-2">Master of Computer Application</h2>
+                  <p className="text-sm text-gray-700 mb-1">Trident Academy of Creative Technology</p>
+                  <p className="text-sm text-gray-600">Bhubaneswar, Odisha — Aug 2018 – Sep 2021</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
-              <h3 className="font-bold text-sm mb-3 text-[#0054E3]">🎯 Academic Focus</h3>
+              <h3 className="font-bold text-sm mb-3 text-[#0054E3]">🎯 Academic Background</h3>
               <p className="text-sm">
-                Specialized in modern software engineering practices with emphasis on full-stack development, 
-                database systems, and enterprise application architecture.
+                Comprehensive training in computer applications and software engineering, with focus on distributed systems, database design, and modern backend development practices.
               </p>
             </div>
           </div>
@@ -239,37 +240,32 @@ export default function App() {
         return (
           <div className="space-y-4">
             <div className="bg-[#E6F3FF] border-2 border-[#0054E3] p-4 rounded">
-              <h3 className="font-bold text-base mb-2 text-[#0054E3]">🏛️ Government Digital Transformation</h3>
+              <h3 className="font-bold text-base mb-2 text-[#0054E3]">� Eye Care Consultation Platform</h3>
               <p className="text-sm mb-2">
-                <strong>Technologies:</strong> React.js, SQL Server, C#, DevExpress, Banking APIs
+                <strong>Technologies:</strong> Node.js, Azure Functions, Event-Driven Architecture, Microservices
               </p>
               <p className="text-sm">
-                Led development of citizen-facing platforms for fee calculation and license management. 
-                Integrated secure payment processing through Banorte banking API, enabling thousands of 
-                citizens to pay taxes and licenses online.
+                Modernized enterprise healthcare platform from monolithic to event-driven microservices. Built stateless Doctor Consultation and Refraction libraries with auto-scale capabilities. Implemented service isolation and async workflows supporting high-traffic clinic operations.
               </p>
             </div>
 
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
-              <h3 className="font-bold text-base mb-2 text-[#0054E3]">🛒 E-Commerce Solutions</h3>
+              <h3 className="font-bold text-base mb-2 text-[#0054E3]">📍 Multi-Site Lead Capture Platform</h3>
               <p className="text-sm mb-2">
-                <strong>Technologies:</strong> Shopify, WordPress, Laravel, Klaviyo, Google Tag Manager
+                <strong>Technologies:</strong> Node.js, Express.js, MySQL, Email Automation
               </p>
               <p className="text-sm">
-                Built and customized multiple e-commerce platforms and landing pages. Implemented 
-                marketing automation, analytics tracking, and responsive designs optimized for conversion 
-                and SEO performance.
+                Lead management platform for spray-foam contractors. Implemented credit-point system with automation rules for property-based calculations. Refined email alerts boosting contractor response rates by 10%. Monitored server operations and gathered client requirements.
               </p>
             </div>
 
             <div className="bg-[#E6FFE6] border-2 border-[#4A9EFF] p-4 rounded">
-              <h3 className="font-bold text-base mb-2 text-[#0054E3]">🔧 Legacy System Modernization</h3>
+              <h3 className="font-bold text-base mb-2 text-[#0054E3]">🎓 AI Certification & Expertise</h3>
               <p className="text-sm mb-2">
-                <strong>Technologies:</strong> C#, .NET Core, SQL Server, React.js
+                <strong>Focus:</strong> Anthropic Claude, Prompt Engineering, AI Workflows
               </p>
               <p className="text-sm">
-                Maintained and improved legacy financial reconciliation systems while gradually introducing 
-                modern web interfaces. Bridged legacy C# backends with contemporary React.js frontends.
+                Certified in AI practices and regularly applies AI-driven development methodologies (SDD). Leverages AI for code generation, debugging, and system architecture design. Committed to modern development practices blending AI and traditional software engineering.
               </p>
             </div>
           </div>
@@ -288,8 +284,8 @@ export default function App() {
                 <span className="text-2xl">✉️</span>
                 <div>
                   <p className="text-xs text-gray-600">Email</p>
-                  <a href="mailto:joelcamposlalo@gmail.com" className="text-sm font-bold text-[#0054E3] hover:underline">
-                    joelcamposlalo@gmail.com
+                  <a href="mailto:pradiptad@gmail.com" className="text-sm font-bold text-[#0054E3] hover:underline">
+                    pradiptad@gmail.com
                   </a>
                 </div>
               </div>
@@ -299,12 +295,12 @@ export default function App() {
                 <div>
                   <p className="text-xs text-gray-600">LinkedIn</p>
                   <a 
-                    href="https://linkedin.com/in/joel-campos" 
+                    href="https://linkedin.com/in/daspradipta7" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-sm font-bold text-[#0054E3] hover:underline"
                   >
-                    linkedin.com/in/joel-campos
+                    linkedin.com/in/daspradipta7
                   </a>
                 </div>
               </div>
@@ -313,8 +309,8 @@ export default function App() {
                 <span className="text-2xl">📱</span>
                 <div>
                   <p className="text-xs text-gray-600">Phone</p>
-                  <a href="tel:+523325799804" className="text-sm font-bold text-[#0054E3] hover:underline">
-                    +52 33 25 79 98 04
+                  <a href="tel:+919999999700" className="text-sm font-bold text-[#0054E3] hover:underline">
+                    +91 9999999700
                   </a>
                 </div>
               </div>
@@ -323,14 +319,14 @@ export default function App() {
                 <span className="text-2xl">📍</span>
                 <div>
                   <p className="text-xs text-gray-600">Location</p>
-                  <p className="text-sm font-bold text-gray-800">Guadalajara, Jalisco, Mexico</p>
+                  <p className="text-sm font-bold text-gray-800">Bhubaneswar, Odisha, India</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded mt-6 text-center">
               <p className="text-sm text-gray-700">
-                💡 Open to opportunities in full-stack development, system integration, and digital transformation projects.
+                💡 Open to opportunities in backend development, microservices architecture, cloud-native solutions, and backend system optimization.
               </p>
             </div>
           </div>

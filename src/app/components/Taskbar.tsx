@@ -50,7 +50,7 @@ export function Taskbar({ openWindows, activeWindow, onWindowActivate, onStartCl
         <div className="w-5 h-5 max-md:w-6 max-md:h-6 bg-gradient-to-br from-red-500 to-yellow-500 rounded flex items-center justify-center">
           <span className="text-white text-xs max-md:text-sm font-bold">⊞</span>
         </div>
-        <span className="font-bold text-white text-sm max-md:text-base italic max-md:hidden" style={{ textShadow: '1px 1px 1px rgba(0,0,0,0.5)' }}>
+        <span className="font-bold text-white text-sm max-md:text-base italic max-sm:hidden" style={{ textShadow: '1px 1px 1px rgba(0,0,0,0.5)' }}>
           start
         </span>
       </button>
@@ -63,7 +63,7 @@ export function Taskbar({ openWindows, activeWindow, onWindowActivate, onStartCl
         {openWindows.map((window) => (
           <button
             key={window.id}
-            className="h-8 max-md:h-12 px-3 max-md:px-2 flex items-center gap-2 max-md:gap-1 rounded transition-all min-w-0 max-w-40 max-md:max-w-24"
+            className="h-8 max-md:h-12 px-3 max-md:px-2 flex items-center gap-2 max-md:gap-1 rounded transition-all min-w-[4.5rem] max-w-40 max-md:max-w-24"
             style={{
               background: activeWindow === window.id 
                 ? 'linear-gradient(to bottom, #EBEBEB, #DEDAD3)' 
@@ -76,9 +76,11 @@ export function Taskbar({ openWindows, activeWindow, onWindowActivate, onStartCl
             }}
             onClick={() => onWindowActivate(window.id)}
           >
-            <span className={activeWindow === window.id ? 'text-black' : 'text-white'}>{window.icon}</span>
+            <div className={activeWindow === window.id ? 'text-black flex-shrink-0' : 'text-white flex-shrink-0'}>
+              <div className="w-5 h-5 max-md:w-6 max-md:h-6 flex items-center justify-center">{window.icon}</div>
+            </div>
             <span 
-              className={`text-xs max-md:text-[10px] truncate ${activeWindow === window.id ? 'text-black' : 'text-white'} max-md:hidden`}
+              className={`text-xs max-md:text-[10px] truncate whitespace-nowrap overflow-hidden ${activeWindow === window.id ? 'text-black' : 'text-white'} max-sm:hidden`}
               style={{ textShadow: activeWindow === window.id ? 'none' : '1px 1px 1px rgba(0,0,0,0.3)' }}
             >
               {window.title}

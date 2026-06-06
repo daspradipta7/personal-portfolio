@@ -46,14 +46,14 @@ export function StartMenu({ onClose, onOpenWindow, icons }: StartMenuProps) {
       <div className="flex h-full">
         {/* Left Banner */}
         <div 
-          className="w-12 flex items-end pb-2 text-white font-bold text-xl writing-mode-vertical"
+          className="w-12 flex items-center justify-center text-white font-bold text-xl leading-none writing-mode-vertical"
           style={{
             background: 'linear-gradient(to top, #2559C7, #3A7CEC)',
             writingMode: 'vertical-rl',
             textOrientation: 'mixed',
           }}
         >
-          <span className="pl-2 text-sm">Windows XP</span>
+          <span className="text-sm text-center">Windows XP</span>
         </div>
 
         {/* Menu Items */}
@@ -66,7 +66,9 @@ export function StartMenu({ onClose, onOpenWindow, icons }: StartMenuProps) {
                 className="px-4 py-2 hover:bg-[#0054E3] hover:text-white cursor-pointer flex items-center gap-3 transition-colors"
                 onClick={() => handleItemClick(icon.id)}
               >
-                <span className="text-gray-700">{icon.icon}</span>
+                <div className="w-6 h-6 flex items-center justify-center flex-shrink-0 text-gray-700">
+                  {icon.icon}
+                </div>
                 <span className="text-sm font-semibold">{icon.label}</span>
               </div>
             ))}

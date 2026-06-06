@@ -1,10 +1,10 @@
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, ReactNode } from 'react';
 import { X, Minus, Square } from 'lucide-react';
 
 interface WindowProps {
   title: string;
-  icon: string;
-  children: React.ReactNode;
+  icon: ReactNode;
+  children: ReactNode;
   onClose: () => void;
   onMinimize: () => void;
   isActive: boolean;
@@ -120,7 +120,7 @@ export function Window({
         onMouseDown={handleMouseDown}
       >
         <div className="flex items-center gap-2">
-          <span className="text-xl max-md:text-2xl">{icon}</span>
+          <div className="w-6 h-6 max-md:w-8 max-md:h-8 flex items-center justify-center">{icon}</div>
           <span className="font-bold text-white text-sm max-md:text-base truncate">{title}</span>
         </div>
         <div className="flex gap-1 max-md:gap-2">
