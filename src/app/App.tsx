@@ -121,11 +121,11 @@ export default function App() {
           <div className="space-y-4">
             <div className="border-b-2 border-[#0054E3] pb-2">
               <h1 className="text-3xl font-bold text-[#0054E3]">PRADIPTA DAS</h1>
-              <p className="text-lg text-gray-700 mt-1">Node.js / Backend Engineer</p>
+              <p className="text-lg text-gray-700 mt-1">Full Stack Engineer</p>
             </div>
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
               <p className="text-sm leading-relaxed">
-                Backend engineer with 4.6+ years of experience designing scalable, event-driven, and cloud-native backend systems. Specializes in Node.js and Azure Functions, microservices migration, stateless service design, and performance optimization across distributed systems.
+                Full-stack engineer with 4.6+ years of experience designing scalable, event-driven, and cloud-native systems. Expert in frontend (React.js) and full-stack development (Node.js, Azure Functions), microservices migration, stateless service design, and performance optimization across distributed systems.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4 mt-4">
@@ -137,7 +137,7 @@ export default function App() {
               <div className="bg-[#ECE9D8] border-2 border-[#808080] p-3">
                 <h3 className="font-bold text-sm mb-2 text-[#0054E3]">📅 Experience</h3>
                 <p className="text-sm">4.6+ Years</p>
-                <p className="text-xs text-gray-600">Backend & Cloud Services</p>
+                <p className="text-xs text-gray-600">Full Stack & Cloud Services</p>
               </div>
             </div>
             <div className="bg-[#E6F3FF] border-2 border-[#0054E3] p-4 rounded mt-4">
@@ -229,8 +229,8 @@ export default function App() {
 
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
               <h3 className="font-bold text-sm mb-3 text-[#0054E3]">🎯 Academic Background</h3>
-              <p className="text-sm">
-                Comprehensive training in computer applications and software engineering, with focus on distributed systems, database design, and modern backend development practices.
+                <p className="text-sm">
+                Comprehensive training in computer applications and software engineering, with focus on distributed systems, database design, and modern full-stack development practices.
               </p>
             </div>
           </div>
@@ -240,7 +240,7 @@ export default function App() {
         return (
           <div className="space-y-4">
             <div className="bg-[#E6F3FF] border-2 border-[#0054E3] p-4 rounded">
-              <h3 className="font-bold text-base mb-2 text-[#0054E3]">� Eye Care Consultation Platform</h3>
+              <h3 className="font-bold text-base mb-2 text-[#0054E3]">📍 Eye Care Consultation Platform</h3>
               <p className="text-sm mb-2">
                 <strong>Technologies:</strong> Node.js, Azure Functions, Event-Driven Architecture, Microservices
               </p>
@@ -252,7 +252,7 @@ export default function App() {
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded">
               <h3 className="font-bold text-base mb-2 text-[#0054E3]">📍 Multi-Site Lead Capture Platform</h3>
               <p className="text-sm mb-2">
-                <strong>Technologies:</strong> Node.js, Express.js, MySQL, Email Automation
+                <strong>Technologies:</strong> React, Node.js, Express.js, MySQL, Email Automation
               </p>
               <p className="text-sm">
                 Lead management platform for spray-foam contractors. Implemented credit-point system with automation rules for property-based calculations. Refined email alerts boosting contractor response rates by 10%. Monitored server operations and gathered client requirements.
@@ -326,7 +326,7 @@ export default function App() {
 
             <div className="bg-[#FFF8DC] border-2 border-[#D4D0C8] p-4 rounded mt-6 text-center">
               <p className="text-sm text-gray-700">
-                💡 Open to opportunities in backend development, microservices architecture, cloud-native solutions, and backend system optimization.
+                💡 Open to opportunities in full-stack development, microservices architecture, cloud-native solutions, and full-stack system optimization.
               </p>
             </div>
           </div>

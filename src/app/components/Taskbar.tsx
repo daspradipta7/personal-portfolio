@@ -1,4 +1,4 @@
-import { useState, useEffect, ReactNode } from 'react';
+import React, { useState, useEffect, ReactNode } from 'react';
 
 interface TaskbarProps {
   openWindows: Array<{ id: string; title: string; icon: ReactNode }>;
@@ -60,33 +60,41 @@ export function Taskbar({ openWindows, activeWindow, onWindowActivate, onStartCl
 
       {/* Open Windows */}
       <div className="flex-1 flex items-center gap-1 overflow-x-auto">
-        {openWindows.map((window) => (
-          <button
-            key={window.id}
-            className="h-8 max-md:h-12 px-3 max-md:px-2 flex items-center gap-2 max-md:gap-1 rounded transition-all min-w-[4.5rem] max-w-40 max-md:max-w-24"
-            style={{
-              background: activeWindow === window.id 
-                ? 'linear-gradient(to bottom, #EBEBEB, #DEDAD3)' 
-                : 'linear-gradient(to bottom, #4A9EFF, #2673DF)',
-              border: '2px outset',
-              borderColor: activeWindow === window.id ? '#D4D0C8' : '#5FA9FF',
-              boxShadow: activeWindow === window.id 
-                ? 'inset 1px 1px 2px rgba(0,0,0,0.2)' 
-                : 'inset 1px 1px 0 rgba(255,255,255,0.3)',
-            }}
-            onClick={() => onWindowActivate(window.id)}
-          >
-            <div className={activeWindow === window.id ? 'text-black flex-shrink-0' : 'text-white flex-shrink-0'}>
-              <div className="w-5 h-5 max-md:w-6 max-md:h-6 flex items-center justify-center">{window.icon}</div>
-            </div>
-            <span 
-              className={`text-xs max-md:text-[10px] truncate whitespace-nowrap overflow-hidden ${activeWindow === window.id ? 'text-black' : 'text-white'} max-sm:hidden`}
-              style={{ textShadow: activeWindow === window.id ? 'none' : '1px 1px 1px rgba(0,0,0,0.3)' }}
+        {openWindows.map((window) => {
+          const iconNode = React.isValidElement(window.icon)
+            ? React.cloneElement(window.icon as React.ReactElement, { width: 18, height: 18, style: { display: 'block' } })
+            : window.icon;
+
+          return (
+            <button
+              key={window.id}
+              className="h-8 max-md:h-12 px-3 max-md:px-2 flex items-center justify-center sm:justify-start gap-2 max-md:gap-1 rounded transition-all min-w-[4.5rem] max-w-40 max-md:max-w-24"
+              style={{
+                background: activeWindow === window.id 
+                  ? 'linear-gradient(to bottom, #EBEBEB, #DEDAD3)' 
+                  : 'linear-gradient(to bottom, #4A9EFF, #2673DF)',
+                border: '2px outset',
+                borderColor: activeWindow === window.id ? '#D4D0C8' : '#5FA9FF',
+                boxShadow: activeWindow === window.id 
+                  ? 'inset 1px 1px 2px rgba(0,0,0,0.2)' 
+                  : 'inset 1px 1px 0 rgba(255,255,255,0.3)',
+              }}
+              onClick={() => onWindowActivate(window.id)}
             >
-              {window.title}
-            </span>
-          </button>
-        ))}
+              <div className={activeWindow === window.id ? 'text-black flex-shrink-0' : 'text-white flex-shrink-0'}>
+                <div className="w-5 h-5 max-md:w-6 max-md:h-6 flex items-center justify-center">
+                  {iconNode}
+                </div>
+              </div>
+              <span 
+                className={`text-xs max-md:text-[10px] truncate whitespace-nowrap overflow-hidden ${activeWindow === window.id ? 'text-black' : 'text-white'} max-sm:hidden`}
+                style={{ textShadow: activeWindow === window.id ? 'none' : '1px 1px 1px rgba(0,0,0,0.3)' }}
+              >
+                {window.title}
+              </span>
+            </button>
+          );
+        })}
       </div>
 
       {/* System Tray */}

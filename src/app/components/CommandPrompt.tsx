@@ -39,63 +39,63 @@ export function CommandPrompt() {
     switch (mainCmd) {
       case 'help':
         output = [
-          { text: 'Comandos disponibles:', type: 'output' },
+          { text: 'Available commands:', type: 'output' },
           { text: '', type: 'output' },
-          { text: 'ABOUT       - Información personal', type: 'output' },
-          { text: 'EXPERIENCE  - Experiencia profesional', type: 'output' },
-          { text: 'SKILLS      - Habilidades técnicas', type: 'output' },
-          { text: 'EDUCATION   - Formación académica', type: 'output' },
-          { text: 'PROJECTS    - Proyectos destacados', type: 'output' },
-          { text: 'CONTACT     - Información de contacto', type: 'output' },
-          { text: 'DIR         - Lista todas las secciones', type: 'output' },
-          { text: 'CLS         - Limpia la pantalla', type: 'output' },
-          { text: 'ECHO        - Muestra un mensaje', type: 'output' },
-          { text: 'DATE        - Muestra la fecha actual', type: 'output' },
-          { text: 'TIME        - Muestra la hora actual', type: 'output' },
-          { text: 'VER         - Muestra la versión del sistema', type: 'output' },
-          { text: 'CLEAR       - Alias para CLS', type: 'output' },
+          { text: 'ABOUT       - Personal information', type: 'output' },
+          { text: 'EXPERIENCE  - Professional experience', type: 'output' },
+          { text: 'SKILLS      - Technical skills', type: 'output' },
+          { text: 'EDUCATION   - Academic background', type: 'output' },
+          { text: 'PROJECTS    - Featured projects', type: 'output' },
+          { text: 'CONTACT     - Contact information', type: 'output' },
+          { text: 'DIR         - List all sections', type: 'output' },
+          { text: 'CLS         - Clear the screen', type: 'output' },
+          { text: 'ECHO        - Show a message', type: 'output' },
+          { text: 'DATE        - Show current date', type: 'output' },
+          { text: 'TIME        - Show current time', type: 'output' },
+          { text: 'VER         - Show system version', type: 'output' },
+          { text: 'CLEAR       - Alias for CLS', type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
 
       case 'about':
         output = [
-          { text: '=== SOBRE MÍ ===', type: 'output' },
+          { text: '=== ABOUT ME ===', type: 'output' },
           { text: '', type: 'output' },
-          { text: 'Nombre: Joel Campos', type: 'output' },
-          { text: 'Título: Full-Stack Software Engineer', type: 'output' },
-          { text: 'Ubicación: Guadalajara, Jalisco', type: 'output' },
+          { text: 'Name: Pradipta Das', type: 'output' },
+          { text: 'Title: Full Stack Engineer', type: 'output' },
+          { text: 'Location: Bhubaneswar, Odisha, India', type: 'output' },
           { text: '', type: 'output' },
-          { text: 'Ingeniero full-stack especializado en JavaScript (React.js, Node.js)', type: 'output' },
-          { text: 'con experiencia en sistemas SQL y plataformas Laravel.', type: 'output' },
+          { text: 'Full-stack engineer specializing in JavaScript (React.js, Node.js)', type: 'output' },
+          { text: 'with experience in SQL systems and Laravel platforms.', type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
 
       case 'experience':
         output = [
-          { text: '=== EXPERIENCIA PROFESIONAL ===', type: 'output' },
+          { text: '=== PROFESSIONAL EXPERIENCE ===', type: 'output' },
           { text: '', type: 'output' },
-          { text: '1. Software Engineer - Gobierno de Zapopan (Feb 2023 - Presente)', type: 'output' },
-          { text: '   • Desarrollo de procedimientos SQL para servicios ciudadanos', type: 'output' },
-          { text: '   • Desarrollo React.js para plataformas de gestión', type: 'output' },
-          { text: '   • Integración de API bancaria Banorte', type: 'output' },
-          { text: '   • Mantenimiento de sistemas legacy C# + DevExpress', type: 'output' },
+          { text: '1. Software Engineer - Gobierno de Zapopan (Feb 2023 - Present)', type: 'output' },
+          { text: '   • Built SQL procedures for citizen service platforms', type: 'output' },
+          { text: '   • Developed React.js solutions for management systems', type: 'output' },
+          { text: '   • Integrated Banorte banking APIs', type: 'output' },
+          { text: '   • Maintained legacy C# + DevExpress applications', type: 'output' },
           { text: '', type: 'output' },
           { text: '2. Software Engineer - Freelance (May 2021 - Feb 2023)', type: 'output' },
-          { text: '   • Desarrollo e-commerce: Shopify, WordPress, Laravel', type: 'output' },
-          { text: '   • Integración analytics: Klaviyo, Google Tag Manager', type: 'output' },
-          { text: '   • Layouts responsivos optimizados para SEO', type: 'output' },
+          { text: '   • Delivered e-commerce experiences with Shopify, WordPress, Laravel', type: 'output' },
+          { text: '   • Integrated analytics using Klaviyo and Google Tag Manager', type: 'output' },
+          { text: '   • Created responsive layouts optimized for SEO', type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
 
       case 'skills':
         output = [
-          { text: '=== HABILIDADES TÉCNICAS ===', type: 'output' },
+          { text: '=== TECHNICAL SKILLS ===', type: 'output' },
           { text: '', type: 'output' },
           { text: 'Frontend:  React.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap', type: 'output' },
-          { text: 'Backend:   Node.js, Express.js, Laravel (PHP), C# (.NET Core)', type: 'output' },
+          { text: 'Full Stack:   Node.js, Express.js, Laravel (PHP), C# (.NET Core)', type: 'output' },
           { text: 'Databases: SQL Server, PostgreSQL, MySQL', type: 'output' },
           { text: 'Tools:     Git, AWS, Figma, DevExpress, Shopify, WordPress', type: 'output' },
           { text: 'Other:     REST APIs, Stored Procedures, System Integration', type: 'output' },
@@ -105,7 +105,7 @@ export function CommandPrompt() {
 
       case 'education':
         output = [
-          { text: '=== FORMACIÓN ACADÉMICA ===', type: 'output' },
+          { text: '=== ACADEMIC BACKGROUND ===', type: 'output' },
           { text: '', type: 'output' },
           { text: 'B.S. in Information Technology Engineering', type: 'output' },
           { text: 'Universidad Tecnológica de Jalisco', type: 'output' },
@@ -116,15 +116,15 @@ export function CommandPrompt() {
 
       case 'projects':
         output = [
-          { text: '=== PROYECTOS DESTACADOS ===', type: 'output' },
+          { text: '=== FEATURED PROJECTS ===', type: 'output' },
           { text: '', type: 'output' },
-          { text: '1. Transformación Digital Gubernamental', type: 'output' },
+          { text: '1. Government Digital Transformation', type: 'output' },
           { text: '   Tech: React.js, SQL Server, C#, DevExpress, Banking APIs', type: 'output' },
           { text: '', type: 'output' },
-          { text: '2. Soluciones E-Commerce', type: 'output' },
+          { text: '2. E-Commerce Solutions', type: 'output' },
           { text: '   Tech: Shopify, WordPress, Laravel, Klaviyo, GTM', type: 'output' },
           { text: '', type: 'output' },
-          { text: '3. Modernización de Sistemas Legacy', type: 'output' },
+          { text: '3. Legacy System Modernization', type: 'output' },
           { text: '   Tech: C#, .NET Core, SQL Server, React.js', type: 'output' },
           { text: '', type: 'output' },
         ];
@@ -132,12 +132,12 @@ export function CommandPrompt() {
 
       case 'contact':
         output = [
-          { text: '=== INFORMACIÓN DE CONTACTO ===', type: 'output' },
+          { text: '=== CONTACT INFORMATION ===', type: 'output' },
           { text: '', type: 'output' },
-          { text: 'Email:    joelcamposlalo@gmail.com', type: 'output' },
-          { text: 'LinkedIn: linkedin.com/in/joel-campos', type: 'output' },
-          { text: 'Phone:    +52 33 25 79 98 04', type: 'output' },
-          { text: 'Location: Guadalajara, Jalisco, Mexico', type: 'output' },
+          { text: 'Email:    pradiptad@gmail.com', type: 'output' },
+          { text: 'LinkedIn: linkedin.com/in/daspradipta7', type: 'output' },
+          { text: 'Phone:    +91 9999999700', type: 'output' },
+          { text: 'Location: Bhubaneswar, Odisha, India', type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
@@ -169,14 +169,14 @@ export function CommandPrompt() {
       case 'echo':
         const message = args.slice(1).join(' ');
         output = [
-          { text: message || 'ECHO está activado.', type: 'output' },
+          { text: message || 'ECHO is on.', type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
 
       case 'date':
         output = [
-          { text: `La fecha actual es: ${new Date().toLocaleDateString('es-MX', { 
+          { text: `Current date is: ${new Date().toLocaleDateString('en-US', { 
             weekday: 'long', 
             year: 'numeric', 
             month: 'long', 
@@ -188,7 +188,7 @@ export function CommandPrompt() {
 
       case 'time':
         output = [
-          { text: `La hora actual es: ${new Date().toLocaleTimeString('es-MX')}`, type: 'output' },
+          { text: `Current time is: ${new Date().toLocaleTimeString('en-US')}`, type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
@@ -197,16 +197,16 @@ export function CommandPrompt() {
         output = [
           { text: '', type: 'output' },
           { text: 'Microsoft Windows XP [Versión 5.1.2600]', type: 'output' },
-          { text: 'Joel Campos Portfolio Edition', type: 'output' },
+          { text: 'Pradipta Das Portfolio Edition', type: 'output' },
           { text: '', type: 'output' },
         ];
         break;
 
       default:
         output = [
-          { text: `'${cmd}' no se reconoce como un comando interno o externo,`, type: 'error' },
-          { text: `programa o archivo por lotes ejecutable.`, type: 'error' },
-          { text: `Escribe 'help' para ver los comandos disponibles.`, type: 'output' },
+          { text: `'${cmd}' is not recognized as an internal or external command,`, type: 'error' },
+          { text: `operable program or batch file.`, type: 'error' },
+          { text: `Type 'help' to see available commands.`, type: 'output' },
           { text: '', type: 'output' },
         ];
     }
