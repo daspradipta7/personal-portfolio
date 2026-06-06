@@ -128,13 +128,6 @@ export function Calculator() {
 
   return (
     <div className="bg-[#ECE9D8] p-2 select-none">
-      {/* Menu Bar */}
-      <div className="h-6 flex items-center px-2 gap-3 mb-2">
-        <span className="text-xs hover:bg-[#D1E3FF] px-2 py-1 cursor-pointer">Editar</span>
-        <span className="text-xs hover:bg-[#D1E3FF] px-2 py-1 cursor-pointer">Ver</span>
-        <span className="text-xs hover:bg-[#D1E3FF] px-2 py-1 cursor-pointer">Ayuda</span>
-      </div>
-
       {/* Display */}
       <div 
         className="bg-white border-2 mb-3 p-2 text-right text-2xl font-mono h-14 flex items-center justify-end"
@@ -147,11 +140,11 @@ export function Calculator() {
 
       {/* Memory & Clear Buttons */}
       <div className="grid grid-cols-5 gap-1 mb-1">
-        <CalcButton value="MC" onClick={() => {}} className="text-red-600" />
-        <CalcButton value="MR" onClick={() => {}} className="text-red-600" />
-        <CalcButton value="MS" onClick={() => {}} className="text-red-600" />
-        <CalcButton value="M+" onClick={() => {}} className="text-red-600" />
-        <CalcButton value="M-" onClick={() => {}} className="text-red-600" />
+        <CalcButton value="MC" onClick={() => {}} className="text-gray-600" />
+        <CalcButton value="MR" onClick={() => {}} className="text-gray-600" />
+        <CalcButton value="MS" onClick={() => {}} className="text-gray-600" />
+        <CalcButton value="M+" onClick={() => {}} className="text-gray-600" />
+        <CalcButton value="M-" onClick={() => {}} className="text-gray-600" />
       </div>
 
       {/* Calculator Buttons */}
