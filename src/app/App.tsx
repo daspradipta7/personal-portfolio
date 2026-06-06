@@ -115,6 +115,10 @@ export default function App() {
   };
 
   const getWindowContent = (id: string) => {
+    const email = import.meta.env.VITE_EMAIL;
+    const phone = import.meta.env.VITE_PHONE;
+    const linkedin = import.meta.env.VITE_LINKEDIN;
+
     switch (id) {
       case 'about':
         return (
@@ -284,8 +288,8 @@ export default function App() {
                 <span className="text-2xl">✉️</span>
                 <div>
                   <p className="text-xs text-gray-600">Email</p>
-                  <a href="mailto:pradiptad@gmail.com" className="text-sm font-bold text-[#0054E3] hover:underline">
-                    pradiptad@gmail.com
+                  <a href={`mailto:${email}`} className="text-sm font-bold text-[#0054E3] hover:underline">
+                    {email}
                   </a>
                 </div>
               </div>
@@ -295,12 +299,12 @@ export default function App() {
                 <div>
                   <p className="text-xs text-gray-600">LinkedIn</p>
                   <a 
-                    href="https://linkedin.com/in/daspradipta7" 
+                    href={linkedin} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-sm font-bold text-[#0054E3] hover:underline"
                   >
-                    linkedin.com/in/daspradipta7
+                    {linkedin}
                   </a>
                 </div>
               </div>
@@ -309,8 +313,8 @@ export default function App() {
                 <span className="text-2xl">📱</span>
                 <div>
                   <p className="text-xs text-gray-600">Phone</p>
-                  <a href="tel:+919999999700" className="text-sm font-bold text-[#0054E3] hover:underline">
-                    +91 9999999700
+                  <a href={`tel:${phone}`} className="text-sm font-bold text-[#0054E3] hover:underline">
+                    {phone}
                   </a>
                 </div>
               </div>
